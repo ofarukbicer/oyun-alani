@@ -1,5 +1,6 @@
 from time import sleep, time
 from datetime import datetime
+from os import system
 
 
 def readme_text():
@@ -15,6 +16,8 @@ def readme_text():
 def hehe():
     with open("README.md", "w") as f:
         f.write(readme_text())
+    sleep(1)
+    system("bash hehe.sh")
 
 while True:
     hehe()
