@@ -16,8 +16,9 @@ def readme_text():
 def hehe():
     with open("README.md", "w") as f:
         f.write(readme_text())
-    sleep(1)
-    system("bash hehe_yolla.sh")
+    system("git add README.md")
+    system(f"git commit -m '{datetime.now()} tarihinde hehe ledim'")
+    system("git push")
 
 while True:
     hehe()
