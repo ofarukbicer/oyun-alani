@@ -17,7 +17,7 @@ def hehe():
     with open("README.md", "w") as f:
         f.write(readme_text())
     sleep(1)
-    system("bash hehe.sh")
+    system("bash hehe_yolla.sh")
 
 while True:
     hehe()
