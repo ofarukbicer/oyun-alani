@@ -1,3 +1,3 @@
-# ofarukbicer'in gidisine son 5 gun 17 saat 8 dakika 01 saniye kaldi
+# ofarukbicer'in gidisine son 5 gun 17 saat 7 dakika 54 saniye kaldi
 
 ## Gidis tarihi: 30.09.2022 :(
